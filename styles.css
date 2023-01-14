@@ -54,3 +54,21 @@ p {
     line-height: 1.6;
     margin-bottom: 48px;
 }
+
+/* Button styles */
+.btn:link,
+.btn:visited {
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #0c8599;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 32px;
+    border-radius: 9px;
+}
+
+.btn:hover,
+.btn:active {
+    background-color: #15aabf;
+}
